@@ -15,6 +15,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap" rel="stylesheet">
     <style>
+      body {width: 100%;
+      margin: 0 auto;}
       :root {
         --dark-color:#02315E;
         --blue-color:#2F70AF;
@@ -92,28 +94,92 @@ background-color: #02315E;
     margin: 57px 0 0 564px;
 }
   
-.circle {height: 36px;
-    width: 43px;
+.circle {height: 40px;
+    width: 50px;
     background-color: white;
     border-radius: 50%;
-    display: flex;
-    margin: 216px 22px;}
+   }
+   #circle1 { margin: 216px 22px;}
+   #circle2{margin: 255px -177px}
+   #circle3 {margin: 268px 128px;}
+   #circle4 {margin: 327px -285px;}
+   #circle5 {margin: 342px 236px;}
+   #circle6 {margin: 399px -94px 0 -305px}
+   #circle7 {margin: 412px 0 0 53px}
+   #circle8 {margin: 498px 0 0 -302px;}
+   #circle9{margin: 538px 0 0 -260px;}
+   #circle10{margin: 538px 0 0 87px;}
+   #circle11{margin: 623px 0 0 -292px;}
+   #circle12{margin: 624px 0 0 121px;}
+
+   .size {font-size: 10px;
+    color: #2F70AF;
+   }
 
     .fa-school{color: #2F70AF;
-    margin: 220px -59px;
+    margin: 220px -63px;
     font-size: 24px;}
+
+    .fa-phone{color: #2F70AF;
+      font-size: 24px;
+      margin: 504px 0 0 -39px;}
+
+     .fa-mobile-screen-button{color: #2F70AF;
+      font-size: 24px;
+      margin: 545px 0 0 -34px;}
+
+   .fa-envelope{color: #2F70AF;
+      font-size: 24px;
+      margin: 545px 0 0 -37px;}
+
+      .fa-github{color: #2F70AF;
+      font-size: 24px;
+      margin: 631px 0 0 -37px;}
+
+      .fa-linkedin {color: #2F70AF;
+      font-size: 24px;
+      margin: 631px 0 0 -35px;}
 
     .border {
       width: 255px;
     height: 0;
     margin: 243px -79px;}
 
-    .education {color: white;
-    font-size: 20px;
-    margin: 218px -11px;}
+    .border1{width: 255px;
+    height: 0;
+    border: 1px solid white;
+    margin: 523px 0 0 -75px}
 
+    .topic {color: white;
+    font-size: 20px;
+   }
+    .education1 {font-size: 15px;
+    color: white;}
    
 
+    #education { margin: 218px -11px;}
+    #education2 { margin: 264px 0 0 -122px}
+    #education3{margin: 334px 0 0 -227px}
+    #education4{margin: 406px 0 0 13px;}
+    #education5 {margin: 498px 0 0 27px;}
+
+    .school {font-size: 12px;
+    color: white;}
+
+    #school {margin: 286px 0 0 -213px;}
+    #school1 {margin:355px 0 0 -213px;}
+    #school2 {margin: 427px 0 0 -195px;}
+
+    .text{font-size: 15px;
+    color: white;
+  }
+  #phone {margin: 581px 0 0 -63px;}
+  #mail {margin: 581px 0 0 -95px;}
+  #link {margin: 670px 0 0 -35px;}
+  #link1{margin: 670px 0 0 -42px;}
+
+   
+   
    
 
 
@@ -177,13 +243,51 @@ background-color: #02315E;
   
   </div>
   <div class="rectangle">
-    <span class="circle"></span> 
-  <div>  <i class="fa-solid fa-school"></i></div>
-    <p class="education">Education</p>
-    <hr>
-
+    <span class="circle" id="circle1"></span> 
+  <div>  
+    <i class="fa-solid fa-school"></i>
+  </div>
+    <p class="topic" id="education">Education</p>
+    
     <div class="border"></div>
-     
+
+    <span class="circle" id="circle2"></span> 
+    <p class="size" id="circle3">2007-2009</p>
+   <p class="education1" id="education2"> Aqaba Secondary High School </p>
+   <p class="school" id="school">Certificate of Scientific Secondary Education</p>
+
+   <span class="circle" id="circle4"></span> 
+    <p class="size" id="circle5">2009-2014</p>
+ <p class="education1" id="education3"> Al-Hussein Bin Talal University  </p>
+   <p class="school" id="school1">Bachelor Degree in Communication Engineering</P>
+
+   <span class="circle" id="circle6"></span> 
+    <p class="size" id="circle7">present</p>
+ <p class="education1" id="education4"> Coding Academy By Orange </p>
+  <p class="school" id="school2">Full Stack Web Development Trainee</P>
+
+    <span class="circle" id="circle8"></span> 
+    <i class="fa-solid fa-phone"></i>
+    <p class="topic" id="education5">contacts</p>
+    <div class="border1"></div>
+    
+    <span class="circle" id="circle9"></span> 
+    <i class="fa-solid fa-mobile-screen-button"></i>
+    <p class="text" id="phone">+962778096932</p>
+
+    <span class="circle" id="circle10"></span> 
+    <i class="fa-regular fa-envelope"></i>
+    <p class="text" id="mail">shratehhaneen@gmail.com</p>
+
+    <span class="circle" id="circle11"></span> 
+    <i class="fa-brands fa-github"></i>
+    <a  href="https://github.com/Haneenghassan" class="text" id="link" >Github</a>
+
+    <span class="circle" id="circle12"></span> 
+    <i class="fa-brands fa-linkedin"></i>
+    <a  href="https://www.linkedin.com/in/haneen-ghassan-shrateh-a9948418b/" class="text" id="link1" >LinkedIn</a>
+
+
   </div>
  
   
