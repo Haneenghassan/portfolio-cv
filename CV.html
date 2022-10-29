@@ -25,8 +25,9 @@
 }
 /*start navbar*/
 .navbar {background-color: var(--dark-color);
+  border-bottom: 1px solid #2F70AF;
  }
-/*end navbar*/
+
 .navbar-brand {font-family: 'Pacifico', cursive;
 color: white;
 }
@@ -38,7 +39,86 @@ color: white;
 .navbar .navbar-nav .nav-link :hover{
   color: var(--blue-color);
 }
+.navbar .navbar-troggler {
+  color: white;
+  font-size: 25px;
+  border: white;
+}
 
+/*end navbar*/
+
+.box {width: 100%;
+  height: 220px;
+border: 1px solid #02315E;
+background-color: #02315E;
+}
+
+.dot {
+  height: 344px;
+    width: 428px;
+    background-color: #2F70AF;
+    border-radius: 50%;
+    display: flex;
+    margin: -199px 77px;
+   }
+
+   .rectangle {border-radius: 25px;
+    background: #2F70AF;
+    width: 427px;
+    height: 1329px;
+    display: flex;
+    margin: 120px 77px;
+    }
+
+    .pic {      height: 325px;
+    width: 380px;
+    border-radius: 50%;
+    display: flex;
+    margin: -322px 103px;}
+
+    .name {position: relative;
+    margin: 9px 0 0 660px;
+    color: white;
+    font-size: 20px;
+    }
+
+    .career {position: relative;
+    margin: 0px 0 0 734px;
+    color: white;
+    font-size: 15px;}
+
+    .objective {width: 50%;
+    color: white;
+    margin: 57px 0 0 564px;
+}
+  
+.circle {height: 36px;
+    width: 43px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    margin: 216px 22px;}
+
+    .fa-school{color: #2F70AF;
+    margin: 220px -59px;
+    font-size: 24px;}
+
+    .border {
+      width: 255px;
+    height: 0;
+    margin: 243px -79px;}
+
+    .education {color: white;
+    font-size: 20px;
+    margin: 218px -11px;}
+
+   
+
+   
+
+
+
+  
 
 
 
@@ -47,6 +127,7 @@ color: white;
 
 </head>
 <body>
+  
   <nav class="navbar navbar-expand-lg ">
     <div class="container">
       <a class="navbar-brand" href="#">CV</a>
@@ -57,7 +138,7 @@ color: white;
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           
           <li class="nav-item">
-            <a class="nav-link  active" aria-current="page" href="#">Objective</a>
+            <a  class="nav-link  active" aria-current="page" href="#">Objective</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page"  href="#">Education</a>
@@ -76,6 +157,34 @@ color: white;
       </div>
     </div>
   </nav>
+
+  <div class="box">
+    <div>
+    <p class="name">HANEEN GHASSAN SHRATEH</p>
+    <p class="career">Full Stack Devloper</p>
+    </div>
+    <div class="objective">
+    <p>My objective is simply to be the best web developer that I can be and to contribute to the technology industry all that I know and can do. I am dedicated to perfecting my craft by learning from more seasoned developers, remaining humble, and continuously making strides to learn all that I can about development.</p>
+    </div>
+  </div>
+
+  </div>
+
+  <div>
+  
+    <span class="dot"></span>
+   <img class="pic" src="img.png" alt="haneen cv">
+  
+  </div>
+  <div class="rectangle">
+    <span class="circle"></span> 
+  <div>  <i class="fa-solid fa-school"></i></div>
+    <p class="education">Education</p>
+    <hr>
+
+    <div class="border"></div>
+     
+  </div>
  
   
   <script src="bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
