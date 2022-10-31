@@ -260,12 +260,12 @@ a:link {
     margin:73px 0 0 -99px
      }
 
-.fa-circle-dot{font-size: 30px;
+.fa-id-card{font-size: 30px;
         color:#02315E;
-        margin: 109px 0 0 -168px;}
+        margin: 109px 0 0 290px;}
 
 .text1 {font-size: 23px;
-            color: #2F70AF;
+            color: #02315E;
          }
 
 #wireframe {margin :142px 0 0 -105px;}
@@ -283,11 +283,10 @@ a:link {
 
      
 
-     #fa-circle-dot {margin: 109px 0 0 290px;}
 
-     #Portpholio {margin: 147px 0 0 -57px;}
+#Portpholio {margin: 147px 0 0 -57px;}
 
-     .first1{background-color:#2F70AF;
+.first1{background-color:#2F70AF;
         color: white;
         width: 35%;
         height: 86px;
@@ -298,7 +297,7 @@ a:link {
 
  
 
- .c1{
+.c1{
     width: 898px;
     margin: 298px -208px -183px -744px;
     display: flex;
@@ -331,32 +330,36 @@ a:link {
     margin: 82px 0 0 -49px;
    }
 
-   #orange {margin: 109px 0 0 -68px;
+#orange {margin: 109px 0 0 -68px;
     font-size: 25px;}
 
-    #job {background-color:#2F70AF;
+#job {background-color:#2F70AF;
         width: 40%;
         border-radius: 10%;
         margin: 145px 0px 24px -205px;
         text-align: justify;
     color: white;}
 
-    #circle20{margin: 77px 0 0 309px;}
+#circle20{margin: 77px 0 0 309px;}
 
-    #size2{font-size: 10px;
+#size2{font-size: 10px;
         color: white;
         margin:91px 0 0 -37px;
     }
 
-    #aseza{font-size: 25px;
+#aseza{font-size: 25px;
         margin: 114px 0 0 -43px;}
 
-       #job1{background-color:#2F70AF;
+#job1{background-color:#2F70AF;
         width: 40%;
         border-radius: 10%;
         margin: 152px 0 28px -205px;
         text-align: justify;
-    color: white;}
+        color: white;
+    }
+    .fa-earth-asia{font-size: 30px;
+        color:#02315E;
+        margin: 109px 20px 0 -168px;}
 
 
 
