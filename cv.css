@@ -1,0 +1,467 @@
+body {width: 100%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    background-color: gainsboro;
+    
+     }
+
+
+:root {
+      --dark-color:#02315E;
+      --blue-color:#2F70AF;
+      }
+    
+/*start navbar*/
+.navbar {background-color: var(--dark-color);
+border-bottom: 1px solid #2F70AF;
+     }
+
+.navbar-brand {font-family: 'Pacifico', cursive;
+color: white;
+     } 
+
+.navbar .navbar-nav .nav-link  {color:white;
+     }
+
+.navbar .navbar-nav .nav-link .active,
+.navbar .navbar-nav .nav-link :focus,
+.navbar .navbar-nav .nav-link :hover{
+color: var(--blue-color);
+    }
+
+.navbar .navbar-troggler {
+color: white;
+font-size: 25px;
+border: white;
+    }
+
+    .fa-download {color: white;}
+/*end navbar*/
+
+/*header*/
+.box {width: 100%;
+height: 220px;
+border: 1px solid #02315E;
+background-color: #02315E;
+     }
+
+.name {position: relative;
+        margin: 12px 0 0 700px;
+        color: white;
+        font-size: 20px;
+     }
+
+.career {position: relative;
+        margin: 0px 0 0 758px;
+        color: white;
+        font-size: 15px;
+    } 
+    
+.objective {width: 50%;
+        color: white;
+        margin: 57px 0 0 564px;
+    }
+
+    .btn {
+        background-color: #2F70AF;
+        border: none;
+        color: white;
+        padding: 12px 30px;
+        cursor: pointer;
+        font-size: 15px;
+      }
+      
+      
+/*left side*/
+
+.dot {height: 344px;
+  width: 428px;
+  background-color: #2F70AF;
+  border-radius: 50%;
+  display: flex;
+  margin: -199px 77px;
+    }
+
+.pic {height: 325px;
+  width: 380px;
+  border-radius: 50%;
+  display: flex;
+  margin: -322px 103px;
+    }
+
+ .rectangle {border-radius: 25px;
+   background: #2F70AF;
+   width: 427px;
+   height: 721px;
+   display: flex;
+   margin: 120px 77px;
+    }
+
+.circle {height: 40px;
+   width: 50px;
+   background-color: white;
+   border-radius: 50%;
+    }
+
+#circle1 { margin: 216px 22px;}
+
+.fa-school{color: #2F70AF;
+    margin: 220px -63px;
+    font-size: 24px;
+    }
+
+.topic {color: white;
+        font-size: 27px;
+    }
+
+#education {margin: 207px 0 0 -16px;}
+
+.border {
+  width: 255px;
+  height: 0;
+  margin: 247px -122px;
+    }
+
+#circle2{margin: 262px -177px;}
+
+.size {font-size: 10px;
+   color: #2F70AF;
+   }
+
+#circle3 {margin: 275px 128px;}
+
+.education1 {font-size: 15px;
+    color: white;
+    }
+
+#education2 { margin: 264px 0 0 -122px;}
+
+.school {font-size: 12px;
+    color: white;
+    }
+  
+#school {margin: 286px 0 0 -209px;
+    }
+
+#circle4 {margin: 327px -285px;}
+
+#circle5 {margin: 342px 236px;}
+
+#education3{margin: 334px 0 0 -227px}
+
+#school1 {margin:355px 0 0 -213px;}
+
+#circle6 {margin: 399px -94px 0 -305px}
+
+#circle7 {margin: 412px 0 0 53px}
+
+#education4{margin: 406px 0 0 13px;}
+
+#school2 {margin: 427px 0 0 -195px;}
+
+#circle8 {margin: 498px 0 0 -257px;}
+
+.fa-phone{color: #2F70AF;
+    font-size: 24px;
+    margin: 504px 0 0 -39px;
+    }
+
+#education5 {margin: 487px 0 0 18px}
+
+.border1{width: 255px;
+    height: 0;
+    border: 1px solid white;
+    margin: 523px 0 0 -101px
+    }
+
+#circle9{margin: 538px 0 0 -260px;}
+
+.fa-mobile-screen-button{color: #2F70AF;
+    font-size: 24px;
+    margin: 545px 0 0 -34px;
+   }
+
+.text{font-size: 15px;
+    color: white;
+   }
+
+#phone {margin: 581px 0 0 -63px;}
+
+#circle10{margin: 538px 0 0 87px;}
+
+.fa-envelope{color: #2F70AF;
+    font-size: 24px;
+    margin: 545px 0 0 -37px;
+    }
+
+#mail {margin: 581px 0 0 -95px;}
+
+#circle11{margin: 623px 0 0 -292px;}
+
+.fa-github{color: #2F70AF;
+    font-size: 24px;
+    margin: 631px 0 0 -37px;
+    }
+
+#link {margin: 670px 0 0 -35px;}
+
+#circle12{margin: 624px 0 0 121px;}
+
+.fa-linkedin {color: #2F70AF;
+    font-size: 24px;
+    margin: 631px 0 0 -35px;
+    }
+
+#link1{margin: 670px 0 0 -42px;}
+
+a:link {
+    text-decoration: none;
+    }
+
+
+
+
+/*right side*/
+
+.squer {
+    width: 759px;
+    display: flex;
+    margin: -797px  0 0 523px;
+    }
+  
+
+
+.circleright {height: 40px;
+    width: 50px;
+    background-color:#2F70AF ;
+    border-radius: 50%;
+    }
+   
+
+#circle13{margin: 44px 0 0 31px}
+
+
+.fa-diagram-project{color:white;
+    font-size: 24px;
+    margin: 54px 0 0 -39px
+   }
+
+
+.topicright{color:#2F70AF;
+    font-size: 27px;
+   }
+
+#project{margin: 35px 0 0 14px;}
+
+
+.border2{width: 255px;
+    height: 0;
+    border: 1px solid #2F70AF;
+    margin:73px 0 0 -99px
+     }
+
+.fa-circle-dot{font-size: 30px;
+        color:#02315E;
+        margin: 109px 0 0 -168px;}
+
+.text1 {font-size: 23px;
+            color: #2F70AF;
+         }
+
+#wireframe {margin :142px 0 0 -105px;}
+
+.first {background-color:#2F70AF;
+    color: white;
+    width: 50%;
+    height: 86px;
+    display: flex;
+     justify-content: center;
+    text-align: center;
+    margin: 183px 0 0 -224px;;
+    border-radius: 10%;
+     }
+
+     
+
+     #fa-circle-dot {margin: 109px 0 0 290px;}
+
+     #Portpholio {margin: 147px 0 0 -57px;}
+
+     .first1{background-color:#2F70AF;
+        color: white;
+        width: 35%;
+        height: 86px;
+         justify-content: center;
+        text-align: center;
+        margin: 183px -82px 0 -175px;
+        border-radius: 10%;}
+
+ 
+
+ .c1{
+    width: 898px;
+    margin: 298px -208px -183px -744px;
+    display: flex;
+    }
+    
+    
+
+#circle18{margin: 25px 0 0 21px;}
+
+.fa-briefcase{ color: white;   
+    font-size: 24px;
+    margin: 32px 0 0 -38px;}
+
+    
+#experience{margin: 16px 0 0 15px;}
+
+
+.border3{width: 255px;
+    height: 0;
+    border: 1px solid #2F70AF;
+    margin: 53px 0 0 -135px;
+       }
+
+
+#circle19{margin: 69px 0 0 -178px;}
+
+
+.size1{font-size: 10px;
+    color: white;
+    margin: 82px 0 0 -49px;
+   }
+
+   #orange {margin: 109px 0 0 -68px;
+    font-size: 25px;}
+
+    #job {background-color:#2F70AF;
+        width: 40%;
+        border-radius: 10%;
+        margin: 145px 0px 24px -205px;
+        text-align: justify;
+    color: white;}
+
+    #circle20{margin: 77px 0 0 309px;}
+
+    #size2{font-size: 10px;
+        color: white;
+        margin:91px 0 0 -37px;
+    }
+
+    #aseza{font-size: 25px;
+        margin: 114px 0 0 -43px;}
+
+       #job1{background-color:#2F70AF;
+        width: 40%;
+        border-radius: 10%;
+        margin: 152px 0 28px -205px;
+        text-align: justify;
+    color: white;}
+
+
+
+
+
+
+
+
+
+ 
+
+  
+
+ 
+
+  
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+   
+
+
+
+   
+
+
+   
+
+    
+
+  
+
+  
+
+  
+
+  
+
+ 
+
+ 
+  
+
+ 
+
+  
+ 
+  
+  
+ 
+
+  
+ 
+ 
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ 
+
+ 
+ 
+
+  
+  
+
+ 
+
+
+ 
+ 
+ 
+
+
+
